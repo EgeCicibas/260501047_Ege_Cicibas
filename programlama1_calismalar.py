@@ -32,3 +32,19 @@ ornek_ad = "efe"
 ornek_soyad = "cicibas"
 print(f"{ornek_ad} {ornek_soyad}") #.format yerine kullanılır daha kısa hali
 
+sayi1 = 12
+sayi2 = 3.2
+print(type(sayi1)) #sayi1'in nasıl olduğunu gösterir ==> integer'dir.
+print(type(sayi2)) #sayi2'nin nasıl olduğnu gösterir ==> float'dır.
+print("-" * 32) #32 tane çizgi çizer
+
+#matematik işlemleri
+sayi1 = 12
+sayi2 = 3.2
+print(sayi1 + sayi2) #toplama işlemi
+print(sayi1 - sayi2) #çıkarma işlemi
+print(sayi1 * sayi2) #çarpma işlemi
+print(sayi1 / sayi2) #bölme işlemi
+print(sayi1 % sayi2) #mod alma işlemi
+print(sayi1 ** sayi2) #üs alma işlemi
+print(sayi1 // sayi2) #tam sayı bölme işlemi
