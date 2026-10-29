@@ -48,3 +48,19 @@ print(sayi1 / sayi2) #bölme işlemi
 print(sayi1 % sayi2) #mod alma işlemi
 print(sayi1 ** sayi2) #üs alma işlemi
 print(sayi1 // sayi2) #tam sayı bölme işlemi
+print(sayi1 % sayi2) #mod alma işlemi
+print(sayi1 ** sayi2) #üs alma işlemi
+print(sayi1 // sayi2) #tam sayı bölme işlemi
+print(abs(sayi1)) #sayi1'in mutlak değerini alır (pozitif olduğu için düz yazdı ama eksili sayı olsaydı artılı şeklinde yazacaktı)
+print(round(sayi2)) #sayi2'yi yuvarlar ==> 3.2 olduğu için 3 yazar
+print(round(sayi2, 2)) #sayi2'yi 2 basamak yuvarlar ==> 3.2 olduğu için 3.20 yazar
+
+#integer , float , round ve string ifadeleri
+herhangi_sayi = 12.33
+print(int(herhangi_sayi)) #12 yazılır çünkü int ondalık kısmı almaz
+print(float(herhangi_sayi)) #12.33 yazılır çünkü float ondalık kısmı alır
+print(round(herhangi_sayi)) #12 yazılır çünkü round ondalık kısmı yuvarlar (eğer 12.5ve daha büyük olsaydı 13 yazacaktı)
+print(str(herhangi_sayi)) #12.33 yazılır çünkü str ondalık kısmı alır ve string olarak yazar
+herhangi_sayi = str(herhangi_sayi) #herhangi_sayi artık string oldu
+print(type(herhangi_sayi)) #herhangi_sayi'nin tipini gösterir ==> string olur
+#herhangi_sayi artık string olduğu için herhangi_sayi + 1 yazarsak hata verir çünkü string ile integer toplanamaz
