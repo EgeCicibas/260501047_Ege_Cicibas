@@ -26,7 +26,9 @@ print(kelime.upper())     #tüm harfleri büyür
 print(kelime.lower())     #tüm harfleri küçültür
 print(kelime.capitalize()) #ilk harfi büyültür
 print(kelime.title())     #her kelimenin ilk harfini büyültür (Yarin_Ders_Yok yazar)
-print()         #satır atlar (birşey yazılmadan gönderilir)
+print(kelime.swapcase()) #büyük harfleri küçültür, küçük harfleri büyültür
+print(kelime.casefold()) #büyük harfleri küçültür, küçük harfleri büyültür (swapcasein aynısı)
+print()  #satır atlar (birşey yazılmadan gönderilir)
 
 ornek_ad = "efe"
 ornek_soyad = "cicibas"
