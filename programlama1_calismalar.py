@@ -10,7 +10,7 @@ print(ogrenci_adi , ogrenci_no , ogrenci_bolumu)
 
 isim = "Ege Cicibaş"
 yas = "18"
-print("{} {} yasindadir".format(isim , yas))
+print(f"{isim} , {yas}") #f-string ile yazdırma (Ege Cicibaş , 18 sonucu gelir)
 
 ornek = "29-10-2026"
 print(len(ornek))       #kaç kelimeden oluştuğunu gösterir
