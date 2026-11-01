@@ -104,3 +104,28 @@ basinc = float(input("lastik basincini gir:"))
 psi = basinc * 14.504
 print(psi)
 
+#Kullanıcının girdiği cihazın kalibrasyon yılını 2 yıl artırarak bir sonraki kalibrasyon yılını yazdırın.
+cihaz_adi = "termometre-1"
+yer = "dolap-1"
+son_kalibrasyon_yili = 2026
+sonraki_kalibrasyon_yili = son_kalibrasyon_yili + 2
+print(cihaz_adi , yer , sonraki_kalibrasyon_yili)
+
+#kullanıcının yazdığı kelimeyi tersten yazdırın ve kelimenin tersiyle aynı olup olmadığını kontrol edin. (kayak ve radar)
+kelime = input("Bir kelime girin:")
+ters_kelime = kelime[::-1]
+print("Ters Kelime:" , ters_kelime)
+print("Aynı mı?" , kelime == ters_kelime) 
+
+#Gidilen mesafe ve süre alınsın ort hız ve 1 km için geçen dakika (tempo) 2 basamakla yazdırılsın. (Örnek: 7km 30dk 14.00 km/sa 4.29 dk/km)
+
+mesafe = float(input("gidilen mesafeyi km olarak grirn. :"))
+sure_dk = float(input("kaç dk sürdü? :"))
+
+süre_saat = sure_dk / 60
+orthiz = mesafe / süre_saat
+tempo = sure_dk / mesafe
+
+print(f"Ortalama hız: {orthiz:.2f} km/sa")
+print(f"tempo: {tempo:.2f} dk/km")
+
