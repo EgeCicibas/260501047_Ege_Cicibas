@@ -75,3 +75,18 @@ print(metin.rstrip()) #sadece sondaki boşluklar silinir
 print(metin.removeprefix("kartepe")) #baştaki kartepe silinir
 print(metin.removesuffix("kocaeli")) #sondaki kocaeli silinir
 print(metin.replace("kocaeli" , "balikesir")) #kocaeli balıkesir ile değiştirilir
+
+#denetleme kodları 
+kelime_denetleme1 = "Kocaeli"
+kelime_denetleme2 = "K41"
+kelime_denetleme3 = "41"
+kelime_denetleme4 = " " 
+
+print(kelime_denetleme1.isalpha()) #isalpha yalnızca harf
+print(kelime_denetleme2.isalnum()) #isalnum yalnızca harf ve sayı
+print(kelime_denetleme3.isdigit()) #isdigit yalnızca rakam
+print(kelime_denetleme4.isspace()) #isspace yalnızca boşluk
+print(kelime_denetleme1.islower()) #islower yalnızca küçük harf false verir çünkü K büyük harf
+print(kelime_denetleme1.isupper()) #isupper yalnızca büyük harf false verir çünkü K hariç hepsi küçük harf
+print(kelime_denetleme1.istitle()) #istitle yalnızca baş harf büyük ve diğerleri küçük harf true verir çünkü Kocaeli
+#*** negatif değerler , ondalıklı ve boşluk için denetimler false verir eksi ve nokta rakam değil***
