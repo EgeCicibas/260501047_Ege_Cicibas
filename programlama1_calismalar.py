@@ -90,3 +90,17 @@ print(kelime_denetleme1.islower()) #islower yalnızca küçük harf false verir 
 print(kelime_denetleme1.isupper()) #isupper yalnızca büyük harf false verir çünkü K hariç hepsi küçük harf
 print(kelime_denetleme1.istitle()) #istitle yalnızca baş harf büyük ve diğerleri küçük harf true verir çünkü Kocaeli
 #*** negatif değerler , ondalıklı ve boşluk için denetimler false verir eksi ve nokta rakam değil***
+
+#Colab'da çözdüğümüz alıştırmalar
+
+#Bir yağış ölçüm istasyonunun kodunu ve o gün ölçtüğü yağış miktarını tek satırda \t kullanarak iki sütunlu bir tablo şeklinde yazdırın.
+print("istasyon kodu:\t4141\nyağış miktarı:\t123")
+
+#deponun 25 25 artarak dolduğunu end ve sep kullanarak yazdırın.
+print("%25" , "%50" , "%75" , "Depo Doldu", sep="..." , end = "!") #%25...%50...%75...Depo Doldu! yazar
+
+#Kullanıcının girdiği lastik basıncı psiye çevirin 1 bar = 14.504 psi
+basinc = float(input("lastik basincini gir:"))
+psi = basinc * 14.504
+print(psi)
+
