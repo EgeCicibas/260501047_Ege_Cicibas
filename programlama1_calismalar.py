@@ -66,3 +66,12 @@ print(str(herhangi_sayi)) #12.33 yazılır çünkü str ondalık kısmı alır v
 herhangi_sayi = str(herhangi_sayi) #herhangi_sayi artık string oldu
 print(type(herhangi_sayi)) #herhangi_sayi'nin tipini gösterir ==> string olur
 #herhangi_sayi artık string olduğu için herhangi_sayi + 1 yazarsak hata verir çünkü string ile integer toplanamaz
+
+#metin temizleme ve değiştirme
+metin = "   kartepe kocaeli   "
+print(metin.strip())  #baştaki ve sondaki boşluklar silinir (mesela stripin içine metindeki karakterlerden yazarsak o karakterlerden silinir)
+print(metin.lstrip()) #sadece baştaki boşluklar silinir
+print(metin.rstrip()) #sadece sondaki boşluklar silinir
+print(metin.removeprefix("kartepe")) #baştaki kartepe silinir
+print(metin.removesuffix("kocaeli")) #sondaki kocaeli silinir
+print(metin.replace("kocaeli" , "balikesir")) #kocaeli balıkesir ile değiştirilir
