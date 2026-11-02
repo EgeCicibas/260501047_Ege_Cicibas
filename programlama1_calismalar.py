@@ -50,9 +50,6 @@ print(sayi1 / sayi2) #bölme işlemi
 print(sayi1 % sayi2) #mod alma işlemi
 print(sayi1 ** sayi2) #üs alma işlemi
 print(sayi1 // sayi2) #tam sayı bölme işlemi
-print(sayi1 % sayi2) #mod alma işlemi
-print(sayi1 ** sayi2) #üs alma işlemi
-print(sayi1 // sayi2) #tam sayı bölme işlemi
 print(abs(sayi1)) #sayi1'in mutlak değerini alır (pozitif olduğu için düz yazdı ama eksili sayı olsaydı artılı şeklinde yazacaktı)
 print(round(sayi2)) #sayi2'yi yuvarlar ==> 3.2 olduğu için 3 yazar
 print(round(sayi2, 2)) #sayi2'yi 2 basamak yuvarlar ==> 3.2 olduğu için 3.20 yazar
